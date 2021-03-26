@@ -20,5 +20,14 @@ module.exports = {
     "import/no-default-export": "error",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/consistent-type-imports": [
+      "warn",
+      { prefer: "type-imports" },
+    ],
+    "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    "prefer-arrow-callback": "error",
+    "func-style": ["error", "expression"],
   },
 };
